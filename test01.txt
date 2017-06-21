@@ -1,0 +1,63 @@
+TESTING PYTHON
+#MUST FOLLOW NAMING CONVENTION
+#OBJECT ORIENTED PROGRAMMING IS HIGHLY APPRICIABLE
+#"EXIT" will terminated the command
+
+* Python Primary Number testing
+normal case : test case is larger than 10^7
+critical case : test case is larger than 10^11
+Find the output based on input. If not found any result print "FALSE RESULT"
+input:
+
+check 49
+find 10
+prime-index 7
+check 10
+EXIT
+
+output:
+
+49 is prime
+tuples are (2,3,5,7)
+index of prime 7 is 4
+FALSE RESULT
+
+*Find your keys
+set pass will set user name and there password, if user is exist , it will insert there password
+check pass operation will check whether the given user has the password pattern matched or not.. if not matched it will return user name and password not matched
+check <username> will represent the given user password in tuple with given min-3 length visible and all are filled with **)
+
+input:
+
+set pass
+harun 10414132sos
+mamun 5151519pick
+kashem 7171717test
+check pass
+harun 414
+mamun sos
+set pass
+harun 5141517
+check harun
+EXIT
+
+output:
+harun **414******
+mamun PASSWORD NOT MATCHED
+harun (104********,514***)
+
+
+**FILE OPERATION
+search File whether the file is exist or not. File consist text. Print each word line by line
+
+input:
+check save.txt
+check not_found.txt
+
+output:
+Hi
+I
+AM
+HARUN
+FILE NOT FOUND
+
